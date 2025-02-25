@@ -73,8 +73,15 @@ The recommendation system is built using three key methodologies:
 #### **Evaluation Metrics:**
 - Calculate the **Root Mean Squared Error (RMSE)** to measure prediction accuracy.
 - RMSE is computed as:
-  
-  \[ RMSE = \sqrt{ \frac{1}{N} \sum (y_{actual} - y_{predicted})^2 } \]
+- RMSE = sqrt( (1/N) * Σ (y_actual - y_predicted)² )
+
+where:
+
+- N is the total number of observations,
+- y_actual represents the actual values,
+- y_predicted represents the predicted values,
+- denotes summation over all observations,
+- sqrt represents the square root function.
 
   > The `mean_squared_error` function is used with `squared=False` to compute RMSE instead of MSE.
 
