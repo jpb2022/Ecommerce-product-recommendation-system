@@ -21,7 +21,7 @@ The recommendation system is built using three key methodologies:
 #### **Objective:**
 - Recommend products with the highest number of ratings.
 - Target new customers by suggesting the most popular products.
-- Address the **Cold Start Problem** ([Learn More](https://github.com/Vaibhav67979/Ecommerce-product-recommendation-system/blob/18d7fb2b8feafd117f7c3f9f859255c2e28cfbe4/ColdStartProblem.md)).
+- Address the **Cold Start Problem** ([Learn More](https://github.com/jpb2022/jpb2022-Ecommerce-product-recommendation-system/blob/main/Ecommerce-product-recommendation-system-main/%20Cold%20Start%20Problem%20in%20Recommender%20Systems%20%20.md)).
 
 #### **Implementation Steps:**
 1. Calculate the **average rating** for each product.
